@@ -110,10 +110,8 @@ rm -rf videos_by_tag-d90a364078aa11eabb5ad5e1d0ea70cd
 
 ✅ Start *cqlsh* on one of the running nodes:
 
-✅ Switch to the *killrvideo* keyspace verify that the consistency level is `ONE`:
+✅ Verify that the consistency level is `ONE`:
 ```cql
-USE killrvideo;
-
 CONSISTENCY;
 ```
 What do you think will happen when you try to retrieve the *cassandra* partition from the *videos_by_tag* table?
