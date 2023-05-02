@@ -35,7 +35,7 @@ What do you think will happen when you try to retrieve the *cassandra* partition
 
 <details class="katapod-details">
   <summary>Answer</summary>
-  The query should fail since you deleted the *data* files for the replica you started and the other replica is not running.
+  The query should return *no data* since you deleted the *data* files for the replica you started and the other replica is not running.
 </details>
 <br>
 
